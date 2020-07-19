@@ -24,7 +24,7 @@ I have not figured out inputs yet with my Oculus Quest, so your milage may very.
     
     b. Set the __Start in__ to: `"C:\Program Files\Revive"`
 
-![image](images\rla_revive_shortcut.png)
+<img src="https://raw.githubusercontent.com/danisla/realtime-landscaping-architect-revive/master/images/rla_revive_shortcut.png" width="320">
 
 4. Rename `C:\Program Files\Realtime Landscaping Architect 2020 Trial\rv trial.exe` to `C:\Program Files\Realtime Landscaping Architect 2020 Trial\rv trial orig.exe` 
 
@@ -55,8 +55,8 @@ rem set /p id="Enter to exit"
 
 10. Click __Walkthrough__ at the bottom and check the `Use Oculus Rift` option then click __OK__ to run.
 
-![image](images\rla_walkthrough_launch.png)
+![](https://raw.githubusercontent.com/danisla/realtime-landscaping-architect-revive/master/images/rla_walkthrough_launch.png)
 
 > The walkthrough should launch in Steam VR.
 
-![image](images\rla_walkthrough_steam_vr.png)
+![](https://raw.githubusercontent.com/danisla/realtime-landscaping-architect-revive/master/images/rla_walkthrough_steam_vr.png)
