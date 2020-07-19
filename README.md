@@ -39,8 +39,7 @@ set rv_orig="C:\PROGRA~1\REALTI~1\RVTRIA~1.EXE"
 
 "C:\Program Files\Revive\ReviveInjector.exe" "%rv_orig%" "\"%~1\"" "\"%~2\"" "\"%~3\"" "\"%~4\"" "\"%~5\""
 
-rem Uncomment below to see ReviveInjector debug output
-rem set /p id="Enter to exit"
+set /p id="Enter to exit"
 ```
 
 > NOTE: the short path to the `rv trial orig.exe` and the quoted positional arguments are key to making the wrapper script work with ReviveInjector.exe.
