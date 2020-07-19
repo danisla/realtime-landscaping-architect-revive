@@ -1,6 +1,6 @@
 ## How to run Realtime Landscape Architect with Revive
 
-> Note that this only works with Realtime Landscaping Architect 2020 64bit, the 32bit version is not compatible with Revive. The tutorial below is for the Trial version, it has also been tested with the full version.
+> Note that this only works with Realtime Landscaping Architect 2020 64bit, the 32bit version is not compatible with Revive. The tutorial below is for the 2020 trial version, which is free to download. It has also been tested with the full version and works just fine.
 
 To run Realtime Landscape Architect with Revive, you have to inject the DLLs into both the main exe and the realtime viewer executable.
 
