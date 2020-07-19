@@ -8,7 +8,7 @@ To run Realtime Landscape Architect with Revive, you have to inject the DLLs int
 
 The hardest part of this hack was the command argument passing and spaces in filenames, go figure.
 
-Once the shortcuts and shim script described below is installed, the Walkthrough experience runs just fine in SteamVR. 
+Once the shortcuts and shim script described below is installed, the Walkthrough experience runs just fine in SteamVR on my Oculus Quest through Virtual Desktop. 
 
 I have not figured out inputs yet with my Oculus Quest, so your milage may very.
 
