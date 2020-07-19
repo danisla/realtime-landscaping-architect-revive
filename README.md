@@ -1,5 +1,7 @@
 ## How to run Realtime Landscape Architect with Revive
 
+> Note that this only works with Realtime Landscaping Architect 2020 64bit, the 32bit version is not compatible with Revive. The tutorial below is for the Trial version, it has also been tested with the full version.
+
 To run Realtime Landscape Architect with Revive, you have to inject the DLLs into both the main exe and the realtime viewer executable.
 
   - The main exe needs injection because it checks for the Rift when launching the Walkthrough view.
@@ -32,7 +34,7 @@ I have not figured out inputs yet with my Oculus Quest, so your milage may very.
 
 ```bat
 @echo off
-rem Short name path to original RV file "rv trial orig.exe"
+rem Short name path to original RV file "C:\Program Files\Realtime Landscaping Architect 2020 Trial\rv trial orig.exe"
 set rv_orig="C:\PROGRA~1\REALTI~1\RVTRIA~1.EXE"
 
 "C:\Program Files\Revive\ReviveInjector.exe" "%rv_orig%" "\"%~1\"" "\"%~2\"" "\"%~3\"" "\"%~4\"" "\"%~5\""
@@ -57,6 +59,6 @@ rem set /p id="Enter to exit"
 
 ![](https://raw.githubusercontent.com/danisla/realtime-landscaping-architect-revive/master/images/rla_walkthrough_launch.png)
 
-> The walkthrough should launch in Steam VR.
+> The walkthrough should launch in Steam VR. Press __Enter__ in the command window when done.
 
 ![](https://raw.githubusercontent.com/danisla/realtime-landscaping-architect-revive/master/images/rla_walkthrough_steam_vr.png)
